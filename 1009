@@ -1,0 +1,30 @@
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+int main(){
+
+    char name[20];
+    double total_sales, fixed_salary, final_salary;
+
+
+    cin >> name;
+
+
+    cin>> fixed_salary;
+
+
+    cin>> total_sales;
+
+    double discount = total_sales * .15;
+    final_salary = discount + fixed_salary;
+
+    cout << "TOTAL = R$ " << fixed << setprecision(2) << final_salary << endl;
+
+
+
+return 0;
+
+
+}
